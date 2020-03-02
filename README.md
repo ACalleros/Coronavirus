@@ -2,6 +2,7 @@
 
 devtools::install_github("RamiKrispin/coronavirus")
 install.packages('gganimate', dependencies = T)
+
 library(coronavirus)
 library(sf)
 library(tidyverse)
