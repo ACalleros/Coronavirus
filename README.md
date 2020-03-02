@@ -1,14 +1,11 @@
 # Coronavirus
 
 devtools::install_github("RamiKrispin/coronavirus")
-install.packages('gganimate', dependencies = T)
 
 library(coronavirus)
-library(sf)
 library(tidyverse)
 library(lubridate)
 library(scico)
-library(ggmap)
 library(gganimate)
 library(scales)
 
